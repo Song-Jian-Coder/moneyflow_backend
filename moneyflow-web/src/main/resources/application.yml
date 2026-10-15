@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: moneyflow
+
+server:
+  port: 8080
