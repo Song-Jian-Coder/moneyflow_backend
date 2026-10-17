@@ -11,4 +11,5 @@ CREATE TABLE IF NOT EXISTS todo_item (
 
 CREATE INDEX IF NOT EXISTS idx_completed ON todo_item (completed);
 CREATE INDEX IF NOT EXISTS idx_priority ON todo_item (priority);
+CREATE INDEX IF NOT EXISTS idx_created_at ON todo_item (created_at);
 CREATE INDEX IF NOT EXISTS idx_due_date ON todo_item (due_date);

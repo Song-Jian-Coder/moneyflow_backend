@@ -12,7 +12,7 @@
 
     <artifactId>moneyflow-dao</artifactId>
     <name>moneyflow-dao</name>
-    <description>数据访问层：MyBatis-Plus Mapper、数据源配置</description>
+    <description>数据访问层：Spring Data JPA Repository、数据源配置</description>
 
     <dependencies>
         <dependency>
@@ -20,8 +20,8 @@
             <artifactId>moneyflow-model</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-spring-boot3-starter</artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
         <dependency>
             <groupId>com.mysql</groupId>
